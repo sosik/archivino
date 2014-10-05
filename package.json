@@ -1,0 +1,22 @@
+{
+  "name": "archivino",
+  "version": "0.0.0",
+  "description": "Universal archiving and backup solution",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sosik/archivino.git"
+  },
+  "keywords": [
+    "archiving",
+    "backup"
+  ],
+  "author": "Pavol Starek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sosik/archivino/issues"
+  }
+}
