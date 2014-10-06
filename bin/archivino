@@ -1,3 +1,10 @@
 #!/usr/bin/env node
+var index = require('../lib/index.js');
 
-console.log('Hallo there');
+
+if (process.argv.length > 2) {
+	var args = process.argv.slice(2);
+	index.execute.apply(null, args);
+} else {
+	index.execute('help');
+}
